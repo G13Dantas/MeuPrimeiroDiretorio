@@ -1,19 +1,8 @@
 body {
-  background-color: rgb(77, 90, 90);
+background: gray;
+background-image: linear-gradient(rgb(89, 85, 85), rgb(15, 11, 108));
 }
 
 h1,h2,h3,h4,h5,h6,p{
     color:white
-}
-
-:root {
-    --cor-principal: #6E859F;
-   
-}
-
-body {
-     background
-h1 {
-    
-    font-weight: 700;
 }
