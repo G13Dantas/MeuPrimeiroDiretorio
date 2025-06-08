@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docentes</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        .button {
+            background-color: cyan;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="w3-content w3-padding-32" id="prof">
+    <h2 class="w3-text-cyan">Docentes</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <div class="w3-hover-opacity" style="display: flex;">
+                <img src="IMGS/docente01.jpeg" alt="Docente 1" style="width:30%; margin:20px;">
+                <div class="w3-container">
+                    <h3 class="w3-text-cyan">Prof. João Silva</h3>
+                    <p><strong class="w3-text-cyan">Formação:</strong> Mestre em Ciência da Computação</p>
+                    <p><strong class="w3-text-cyan">Atuação:</strong> Especialista em Desenvolvimento de Software e Banco de Dados.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="w3-hover-opacity" style="display: flex;">
+                <img src="IMGS/docente02.jpeg" alt="Docente 2" style="width:30%; margin:20px;">
+                <div class="w3-container">
+                    <h3 class="w3-text-cyan">Prof. Maria Oliveira</h3>
+                    <p><strong class="w3-text-cyan">Formação:</strong> Doutora em Engenharia de Software</p>
+                    <p><strong class="w3-text-cyan">Atuação:</strong> Pesquisadora e Consultora em Projetos de TI.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="button" onclick="plusSlides(-1)">&#10094; Anterior</button>
+    <button class="button" onclick="plusSlides(1)">Próximo &#10095;</button>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+        if (n >= slides.length) { slideIndex = 0; }
+        if (n < 0) { slideIndex = slides.length - 1; }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndex].style.display = "flex";  
+    }
+</script>
+
+</body>
+</html>
