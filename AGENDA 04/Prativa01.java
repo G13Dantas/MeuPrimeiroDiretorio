@@ -1,9 +1,9 @@
-Public class Principal{
+public class Exemplo {
 
-    public static void(String[]args){
+    public static void main(String[] args) {
+
+        String mensagem = "Olá, Mundo!";
         
-        meuprimeiroprograma="Ola mundo"
-        
-        System.out.println(meuprimeiroprograma);
+        System.out.println(mensagem);
     }
 }

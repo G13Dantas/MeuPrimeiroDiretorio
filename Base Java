@@ -1,6 +1,6 @@
 /*Arquivo base para JAVA
 
-Public class PRINCIPAL {
+public class Principal {
 
     public static void main(Sting[]args){
         
