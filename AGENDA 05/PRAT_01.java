@@ -4,10 +4,12 @@ public class Principal{
         double altura=1.75;
         char inicial='Amora';
         String nome="Gilberto Gil";
-        boolean Aprovado=true;
+        boolean aprovado=true;
 
         System.out.println("Idade: "+idade);
         System.out.println("Altura: "+altura);
         System.out.println("Inicial: "+inicial);
+        System.out.println("Nome: "+nome);
+        System.out.println("Aprovado: "+aprovado);
     }
 }
