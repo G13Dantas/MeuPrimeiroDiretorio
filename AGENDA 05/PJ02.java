@@ -12,7 +12,7 @@ public class PJ02 {
 
         System.out.println("Digite o primeiro valor: ");
         numero1 = leitor.nextInt();
-        //Solicita ao usuário que digite o primeiro valor e armazena na variável numero1.
+        //Solicita ao usuário que digite o primeiro valor e armazena na variável numero1
 
         System.out.println("Digite o segundo valor: ");
         numero2 = leitor.nextInt();
