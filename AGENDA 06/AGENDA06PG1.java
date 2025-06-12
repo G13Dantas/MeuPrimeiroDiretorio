@@ -1,7 +1,7 @@
 // Agenda focada em estruturas de decisao //
 import java.util.Scanner;
 
-public class PJ01 {
+public class AGENDA06PG1{ 
     public static void main(String[] args){
 
         int idade; //armazena a idade//
