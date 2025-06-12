@@ -1,7 +1,9 @@
+package AGENDA_06;
+
 // Agenda focada em estruturas de decisao //
 import java.util.Scanner;
 
-public class AGENDA06PG1{ 
+public class AG_06_PG_01 {
     public static void main(String[] args){
 
         int idade; //armazena a idade//
