@@ -21,8 +21,6 @@ public class AG_06_PG_04 {
         "O número inteiro é "+numeroInt + 
         "\nO número double é "+numerodouble +
         "\nOnúmero float é " + numerofloat);
-
-
     }
     
 }
